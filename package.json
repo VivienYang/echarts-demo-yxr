@@ -1,0 +1,17 @@
+{
+  "name": "echarts-demo-yxr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@types/echarts": "^4.9.20",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "echarts": "^5.4.3"
+  }
+}
